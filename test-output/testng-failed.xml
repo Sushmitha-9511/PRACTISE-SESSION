@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [POMFrameworkpractise2]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="CustomListener.Custome_Listener"/>
+  </listeners>
+  <test thread-count="5" name="POM Framework 2(failed)">
+    <classes>
+      <class name="test_package.test_class_Home">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="clickTest"/>
+        </methods>
+      </class> <!-- test_package.test_class_Home -->
+      <class name="test_package.test_class">
+        <methods>
+          <include name="setup"/>
+          <include name="loginTest"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- test_package.test_class -->
+    </classes>
+  </test> <!-- POM Framework 2(failed) -->
+</suite> <!-- Failed suite [POMFrameworkpractise2] -->

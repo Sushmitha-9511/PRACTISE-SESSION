@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="POMFrameworkpractise2">
+<listeners>
+<listener class-name="CustomListener.Custome_Listener"/>
+</listeners>
+<test name="POM Framework 2">
+		<classes>
+			<class name="test_package.test_class" />
+			<class name="test_package.test_class_Home" />
+		</classes>
+	</test>
+</suite>
